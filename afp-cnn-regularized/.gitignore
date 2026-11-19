@@ -1,0 +1,30 @@
+# Datasets / raw scientific files
+/data/
+/datasets/
+/afps/
+/cleaned_cifs/
+/ICSD_data/
+*.bin
+*.cif
+*.npy
+*.npz
+
+# Model outputs and artifacts
+/results/
+/checkpoints/
+/runs/
+*.pt
+*.pth
+*.ckpt
+
+# Python environments / caches
+.venv/
+.venv-gpu/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.idea/
+.vscode/
+.env
+.DS_Store
